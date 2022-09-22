@@ -7,7 +7,6 @@ body {
 }
 
 .weather {
-  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +33,7 @@ body {
   text-align: justify;
   padding-bottom: 2px;
   letter-spacing: 1px;
+  margin-right: auto;
 }
 
 .weather--name {
