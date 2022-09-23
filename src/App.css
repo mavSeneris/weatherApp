@@ -20,9 +20,12 @@ body {
 
 .weather--side-info {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   padding-top: 15px;
   padding-left: 12px;
+  list-style: none;
+  margin-top: 0px;
 }
 
 .weather--info {
@@ -30,9 +33,9 @@ body {
   margin-bottom: 20px;
   height: 1px;
   text-transform: uppercase;
-  text-align: justify;
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
   letter-spacing: 1px;
+  /* list-style: none; */
   margin-right: auto;
 }
 
@@ -69,3 +72,4 @@ body {
 .weather--name {
   margin-bottom: 1px;
 }
+

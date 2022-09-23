@@ -61,15 +61,12 @@ function App() {
             {/* {Math.floor(weather.temp)}° */}
             21°
           </h1>
-          <div className='weather--side-info'>
-            <div className='weather--info feels-like'>
-              Feels like: <span>25°</span>
-              {/* <span>{Math.floor(weather.feelsLike)}°C</span> */}
-            </div>
-            <div className='weather--info humidity'>Humidity: 73%</div>
-            <div className='weather--info wind'>Wind: 5.36Km/h</div>
-            <div className='weather--info visibility'>Visibility: 10Km</div>
-          </div>
+          <ul className='weather--side-info'>
+            <li className='weather--info feels-like'>Feels like <span>25°</span>{/* <span>{Math.floor(weather.feelsLike)}°C</span> */}</li>
+            <li className='weather--info humidity'>Humidity 73%</li>
+            <li className='weather--info wind'>Wind 5.36Km/h</li>
+            <li className='weather--info visibility'>Visibility 10Km</li>
+          </ul>
         </div>
       </div>
     </div>
